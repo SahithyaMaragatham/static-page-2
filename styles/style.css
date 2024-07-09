@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+.icon img {
+    width: 50px;
+    height: 50px;
+}
+h2{
+    text-align: center;
+}
+.Home img{
+        width: 100%;
+        height: 500px;
+        padding: 0%;
+        margin: 0%;
+}
+
+
+header {
+    background-color: #1e90ff;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav {
+    background-color:#845513;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: right;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #c69a5d;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+.About .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.About .content p {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.About .content img {
+    flex-shrink: 0;
+}
+
+
+
+.services {
+    display: flex;
+    justify-content: space-around;
+}
+.servp{
+    text-decoration: underline;
+}
+
+.services img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 10px;
+}
+.product{
+    display: flex;
+    justify-content: space-around;
+}
+#products{
+    background-color: #845513;
+    padding: 0.5%;
+    margin: 0px;
+}
+
+.product img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px; /* Adjusted width for more space */
+    margin: 0 auto;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Space between rows */
+}
+
+form label {
+    flex: 1; /* Allow label to take up necessary space */
+    margin-right: 20px; /* Space between label and input */
+    text-align: right; /* Align text to the right */
+}
+
+form input, form textarea {
+    flex: 2; /* Allow input/textarea to take up more space */
+    padding: 20px 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form textarea {
+    height: 80px; /* Adjust height as needed */
+}
+
+form .button-container {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 20px;
+}
+
+form button {
+    padding: 10px 30px;
+    background-color: #845513;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+form button:hover {
+    background-color:#c69a5d ;
+}
+
+footer {
+    background-color: #845513;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/*media queries*/
+@media (min-width:375px) and (max-width:600px){
+    .About {
+        background-color: #845513;
+    }
+}
